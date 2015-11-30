@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "ab68627af4be04c076869972983a5286"
+build_time: [502183558, 521212000]
+inputs:
+  "/Users/user/Documents/TestProjects/PDFReaderTut/PDFReaderTut/Classes/AppDelegate.swift": [502183108, 0]
+  "/Users/user/Documents/TestProjects/PDFReaderTut/PDFReaderTut/Classes/ViewControllers/ReaderPDFViewController.swift": [502183455, 0]

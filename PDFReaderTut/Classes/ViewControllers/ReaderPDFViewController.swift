@@ -6,7 +6,7 @@
 //  Copyright © 2015 Roman Rybachenko. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class ReaderPDFViewController: UIViewController {
 
