@@ -1,3 +1,3 @@
-/build/*
-.xcbkptlist
-.DS_Store
+build/
+*.xcbkptlist
+*.DS_Store
