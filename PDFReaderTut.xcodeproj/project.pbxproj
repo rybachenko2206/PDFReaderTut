@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		904AEC231C0C801500C23945 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904AEC221C0C801500C23945 /* UIKit.framework */; };
+		904AEC251C0C802000C23945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904AEC241C0C801F00C23945 /* Foundation.framework */; };
+		904AEC271C0C802D00C23945 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904AEC261C0C802D00C23945 /* CoreGraphics.framework */; };
+		904AEC291C0C803B00C23945 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904AEC281C0C803B00C23945 /* QuartzCore.framework */; };
+		904AEC2B1C0C804900C23945 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904AEC2A1C0C804900C23945 /* ImageIO.framework */; };
+		904AEC2D1C0C805C00C23945 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904AEC2C1C0C805C00C23945 /* MessageUI.framework */; };
+		904AEC311C0C82B000C23945 /* paypaking - booking-v1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 904AEC2F1C0C82B000C23945 /* paypaking - booking-v1.pdf */; };
+		904AEC321C0C82B000C23945 /* Specifications EDIT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 904AEC301C0C82B000C23945 /* Specifications EDIT.pdf */; };
+		904AEC361C0C892E00C23945 /* 5. Annotations.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 904AEC351C0C892E00C23945 /* 5. Annotations.pdf */; };
+		904AEC391C0C932E00C23945 /* FileIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904AEC381C0C932E00C23945 /* FileIconCell.swift */; };
 		90A380351C0C2FC400959AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A380331C0C2FC400959AEF /* Main.storyboard */; };
 		90A380371C0C2FC400959AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A380361C0C2FC400959AEF /* Assets.xcassets */; };
 		90A3803A1C0C2FC400959AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A380381C0C2FC400959AEF /* LaunchScreen.storyboard */; };
@@ -14,6 +24,26 @@
 		90A380501C0C2FC400959AEF /* PDFReaderTutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A3804F1C0C2FC400959AEF /* PDFReaderTutUITests.swift */; };
 		90A380601C0C30BF00959AEF /* ReaderPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A3805F1C0C30BF00959AEF /* ReaderPDFViewController.swift */; };
 		90A380631C0C318600959AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A380621C0C318600959AEF /* AppDelegate.swift */; };
+		90A3808F1C0C576600959AEF /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A380681C0C576600959AEF /* CGPDFDocument.m */; };
+		90A380901C0C576600959AEF /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A3806A1C0C576600959AEF /* ReaderConstants.m */; };
+		90A380911C0C576600959AEF /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A3806C1C0C576600959AEF /* ReaderContentPage.m */; };
+		90A380921C0C576600959AEF /* ReaderContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A3806E1C0C576600959AEF /* ReaderContentTile.m */; };
+		90A380931C0C576600959AEF /* ReaderContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A380701C0C576600959AEF /* ReaderContentView.m */; };
+		90A380941C0C576600959AEF /* ReaderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A380721C0C576600959AEF /* ReaderDocument.m */; };
+		90A380951C0C576600959AEF /* ReaderDocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A380741C0C576600959AEF /* ReaderDocumentOutline.m */; };
+		90A380961C0C576600959AEF /* ReaderMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A380761C0C576600959AEF /* ReaderMainPagebar.m */; };
+		90A380971C0C576600959AEF /* ReaderMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A380781C0C576600959AEF /* ReaderMainToolbar.m */; };
+		90A380981C0C576600959AEF /* ReaderThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A3807A1C0C576600959AEF /* ReaderThumbCache.m */; };
+		90A380991C0C576600959AEF /* ReaderThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A3807C1C0C576600959AEF /* ReaderThumbFetch.m */; };
+		90A3809A1C0C576600959AEF /* ReaderThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A3807E1C0C576600959AEF /* ReaderThumbQueue.m */; };
+		90A3809B1C0C576600959AEF /* ReaderThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A380801C0C576600959AEF /* ReaderThumbRender.m */; };
+		90A3809C1C0C576600959AEF /* ReaderThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A380821C0C576600959AEF /* ReaderThumbRequest.m */; };
+		90A3809D1C0C576600959AEF /* ReaderThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A380841C0C576600959AEF /* ReaderThumbsView.m */; };
+		90A3809E1C0C576600959AEF /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A380861C0C576600959AEF /* ReaderThumbView.m */; };
+		90A3809F1C0C576600959AEF /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A380881C0C576600959AEF /* ReaderViewController.m */; };
+		90A380A01C0C576600959AEF /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A3808A1C0C576600959AEF /* ThumbsMainToolbar.m */; };
+		90A380A11C0C576600959AEF /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A3808C1C0C576600959AEF /* ThumbsViewController.m */; };
+		90A380A21C0C576600959AEF /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A3808E1C0C576600959AEF /* UIXToolbarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +64,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		904AEC221C0C801500C23945 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		904AEC241C0C801F00C23945 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		904AEC261C0C802D00C23945 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		904AEC281C0C803B00C23945 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		904AEC2A1C0C804900C23945 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		904AEC2C1C0C805C00C23945 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		904AEC2F1C0C82B000C23945 /* paypaking - booking-v1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "paypaking - booking-v1.pdf"; sourceTree = "<group>"; };
+		904AEC301C0C82B000C23945 /* Specifications EDIT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Specifications EDIT.pdf"; sourceTree = "<group>"; };
+		904AEC351C0C892E00C23945 /* 5. Annotations.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "5. Annotations.pdf"; sourceTree = "<group>"; };
+		904AEC381C0C932E00C23945 /* FileIconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileIconCell.swift; path = Classes/Views/FileIconCell.swift; sourceTree = "<group>"; };
 		90A3802C1C0C2FC300959AEF /* PDFReaderTut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFReaderTut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A380341C0C2FC400959AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90A380361C0C2FC400959AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +87,47 @@
 		90A380511C0C2FC400959AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90A3805F1C0C30BF00959AEF /* ReaderPDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReaderPDFViewController.swift; path = Classes/ViewControllers/ReaderPDFViewController.swift; sourceTree = "<group>"; };
 		90A380621C0C318600959AEF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
+		90A380661C0C576500959AEF /* PDFReaderTut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PDFReaderTut-Bridging-Header.h"; sourceTree = "<group>"; };
+		90A380671C0C576600959AEF /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGPDFDocument.h; path = "Classes/Externals/PDF-reader/CGPDFDocument.h"; sourceTree = "<group>"; };
+		90A380681C0C576600959AEF /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGPDFDocument.m; path = "Classes/Externals/PDF-reader/CGPDFDocument.m"; sourceTree = "<group>"; };
+		90A380691C0C576600959AEF /* ReaderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderConstants.h; path = "Classes/Externals/PDF-reader/ReaderConstants.h"; sourceTree = "<group>"; };
+		90A3806A1C0C576600959AEF /* ReaderConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderConstants.m; path = "Classes/Externals/PDF-reader/ReaderConstants.m"; sourceTree = "<group>"; };
+		90A3806B1C0C576600959AEF /* ReaderContentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderContentPage.h; path = "Classes/Externals/PDF-reader/ReaderContentPage.h"; sourceTree = "<group>"; };
+		90A3806C1C0C576600959AEF /* ReaderContentPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderContentPage.m; path = "Classes/Externals/PDF-reader/ReaderContentPage.m"; sourceTree = "<group>"; };
+		90A3806D1C0C576600959AEF /* ReaderContentTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderContentTile.h; path = "Classes/Externals/PDF-reader/ReaderContentTile.h"; sourceTree = "<group>"; };
+		90A3806E1C0C576600959AEF /* ReaderContentTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderContentTile.m; path = "Classes/Externals/PDF-reader/ReaderContentTile.m"; sourceTree = "<group>"; };
+		90A3806F1C0C576600959AEF /* ReaderContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderContentView.h; path = "Classes/Externals/PDF-reader/ReaderContentView.h"; sourceTree = "<group>"; };
+		90A380701C0C576600959AEF /* ReaderContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderContentView.m; path = "Classes/Externals/PDF-reader/ReaderContentView.m"; sourceTree = "<group>"; };
+		90A380711C0C576600959AEF /* ReaderDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderDocument.h; path = "Classes/Externals/PDF-reader/ReaderDocument.h"; sourceTree = "<group>"; };
+		90A380721C0C576600959AEF /* ReaderDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderDocument.m; path = "Classes/Externals/PDF-reader/ReaderDocument.m"; sourceTree = "<group>"; };
+		90A380731C0C576600959AEF /* ReaderDocumentOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderDocumentOutline.h; path = "Classes/Externals/PDF-reader/ReaderDocumentOutline.h"; sourceTree = "<group>"; };
+		90A380741C0C576600959AEF /* ReaderDocumentOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderDocumentOutline.m; path = "Classes/Externals/PDF-reader/ReaderDocumentOutline.m"; sourceTree = "<group>"; };
+		90A380751C0C576600959AEF /* ReaderMainPagebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderMainPagebar.h; path = "Classes/Externals/PDF-reader/ReaderMainPagebar.h"; sourceTree = "<group>"; };
+		90A380761C0C576600959AEF /* ReaderMainPagebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderMainPagebar.m; path = "Classes/Externals/PDF-reader/ReaderMainPagebar.m"; sourceTree = "<group>"; };
+		90A380771C0C576600959AEF /* ReaderMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderMainToolbar.h; path = "Classes/Externals/PDF-reader/ReaderMainToolbar.h"; sourceTree = "<group>"; };
+		90A380781C0C576600959AEF /* ReaderMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderMainToolbar.m; path = "Classes/Externals/PDF-reader/ReaderMainToolbar.m"; sourceTree = "<group>"; };
+		90A380791C0C576600959AEF /* ReaderThumbCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderThumbCache.h; path = "Classes/Externals/PDF-reader/ReaderThumbCache.h"; sourceTree = "<group>"; };
+		90A3807A1C0C576600959AEF /* ReaderThumbCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbCache.m; path = "Classes/Externals/PDF-reader/ReaderThumbCache.m"; sourceTree = "<group>"; };
+		90A3807B1C0C576600959AEF /* ReaderThumbFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderThumbFetch.h; path = "Classes/Externals/PDF-reader/ReaderThumbFetch.h"; sourceTree = "<group>"; };
+		90A3807C1C0C576600959AEF /* ReaderThumbFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbFetch.m; path = "Classes/Externals/PDF-reader/ReaderThumbFetch.m"; sourceTree = "<group>"; };
+		90A3807D1C0C576600959AEF /* ReaderThumbQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderThumbQueue.h; path = "Classes/Externals/PDF-reader/ReaderThumbQueue.h"; sourceTree = "<group>"; };
+		90A3807E1C0C576600959AEF /* ReaderThumbQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbQueue.m; path = "Classes/Externals/PDF-reader/ReaderThumbQueue.m"; sourceTree = "<group>"; };
+		90A3807F1C0C576600959AEF /* ReaderThumbRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderThumbRender.h; path = "Classes/Externals/PDF-reader/ReaderThumbRender.h"; sourceTree = "<group>"; };
+		90A380801C0C576600959AEF /* ReaderThumbRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbRender.m; path = "Classes/Externals/PDF-reader/ReaderThumbRender.m"; sourceTree = "<group>"; };
+		90A380811C0C576600959AEF /* ReaderThumbRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderThumbRequest.h; path = "Classes/Externals/PDF-reader/ReaderThumbRequest.h"; sourceTree = "<group>"; };
+		90A380821C0C576600959AEF /* ReaderThumbRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbRequest.m; path = "Classes/Externals/PDF-reader/ReaderThumbRequest.m"; sourceTree = "<group>"; };
+		90A380831C0C576600959AEF /* ReaderThumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderThumbsView.h; path = "Classes/Externals/PDF-reader/ReaderThumbsView.h"; sourceTree = "<group>"; };
+		90A380841C0C576600959AEF /* ReaderThumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbsView.m; path = "Classes/Externals/PDF-reader/ReaderThumbsView.m"; sourceTree = "<group>"; };
+		90A380851C0C576600959AEF /* ReaderThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderThumbView.h; path = "Classes/Externals/PDF-reader/ReaderThumbView.h"; sourceTree = "<group>"; };
+		90A380861C0C576600959AEF /* ReaderThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbView.m; path = "Classes/Externals/PDF-reader/ReaderThumbView.m"; sourceTree = "<group>"; };
+		90A380871C0C576600959AEF /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderViewController.h; path = "Classes/Externals/PDF-reader/ReaderViewController.h"; sourceTree = "<group>"; };
+		90A380881C0C576600959AEF /* ReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderViewController.m; path = "Classes/Externals/PDF-reader/ReaderViewController.m"; sourceTree = "<group>"; };
+		90A380891C0C576600959AEF /* ThumbsMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThumbsMainToolbar.h; path = "Classes/Externals/PDF-reader/ThumbsMainToolbar.h"; sourceTree = "<group>"; };
+		90A3808A1C0C576600959AEF /* ThumbsMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThumbsMainToolbar.m; path = "Classes/Externals/PDF-reader/ThumbsMainToolbar.m"; sourceTree = "<group>"; };
+		90A3808B1C0C576600959AEF /* ThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThumbsViewController.h; path = "Classes/Externals/PDF-reader/ThumbsViewController.h"; sourceTree = "<group>"; };
+		90A3808C1C0C576600959AEF /* ThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThumbsViewController.m; path = "Classes/Externals/PDF-reader/ThumbsViewController.m"; sourceTree = "<group>"; };
+		90A3808D1C0C576600959AEF /* UIXToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIXToolbarView.h; path = "Classes/Externals/PDF-reader/UIXToolbarView.h"; sourceTree = "<group>"; };
+		90A3808E1C0C576600959AEF /* UIXToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIXToolbarView.m; path = "Classes/Externals/PDF-reader/UIXToolbarView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +135,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904AEC2D1C0C805C00C23945 /* MessageUI.framework in Frameworks */,
+				904AEC2B1C0C804900C23945 /* ImageIO.framework in Frameworks */,
+				904AEC291C0C803B00C23945 /* QuartzCore.framework in Frameworks */,
+				904AEC271C0C802D00C23945 /* CoreGraphics.framework in Frameworks */,
+				904AEC251C0C802000C23945 /* Foundation.framework in Frameworks */,
+				904AEC231C0C801500C23945 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +161,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		904AEC2E1C0C806700C23945 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				904AEC2C1C0C805C00C23945 /* MessageUI.framework */,
+				904AEC2A1C0C804900C23945 /* ImageIO.framework */,
+				904AEC281C0C803B00C23945 /* QuartzCore.framework */,
+				904AEC261C0C802D00C23945 /* CoreGraphics.framework */,
+				904AEC241C0C801F00C23945 /* Foundation.framework */,
+				904AEC221C0C801500C23945 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		904AEC331C0C88EF00C23945 /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+				904AEC2F1C0C82B000C23945 /* paypaking - booking-v1.pdf */,
+				904AEC301C0C82B000C23945 /* Specifications EDIT.pdf */,
+				904AEC351C0C892E00C23945 /* 5. Annotations.pdf */,
+			);
+			name = PDFs;
+			sourceTree = "<group>";
+		};
+		904AEC371C0C92F300C23945 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				904AEC381C0C932E00C23945 /* FileIconCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		90A380231C0C2FC300959AEF = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +218,7 @@
 			children = (
 				90A3805D1C0C2FD100959AEF /* Classes */,
 				90A3805E1C0C2FDB00959AEF /* Resources */,
+				904AEC2E1C0C806700C23945 /* Frameworks */,
 			);
 			path = PDFReaderTut;
 			sourceTree = "<group>";
@@ -125,6 +245,9 @@
 			isa = PBXGroup;
 			children = (
 				90A380621C0C318600959AEF /* AppDelegate.swift */,
+				90A380661C0C576500959AEF /* PDFReaderTut-Bridging-Header.h */,
+				90A380641C0C573300959AEF /* Externals */,
+				904AEC371C0C92F300C23945 /* Views */,
 				90A380611C0C310900959AEF /* ViewControllers */,
 			);
 			name = Classes;
@@ -137,6 +260,7 @@
 				90A380361C0C2FC400959AEF /* Assets.xcassets */,
 				90A380381C0C2FC400959AEF /* LaunchScreen.storyboard */,
 				90A3803B1C0C2FC400959AEF /* Info.plist */,
+				904AEC331C0C88EF00C23945 /* PDFs */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -147,6 +271,61 @@
 				90A3805F1C0C30BF00959AEF /* ReaderPDFViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		90A380641C0C573300959AEF /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				90A380651C0C574200959AEF /* PDF-reader */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+		90A380651C0C574200959AEF /* PDF-reader */ = {
+			isa = PBXGroup;
+			children = (
+				90A380671C0C576600959AEF /* CGPDFDocument.h */,
+				90A380681C0C576600959AEF /* CGPDFDocument.m */,
+				90A380691C0C576600959AEF /* ReaderConstants.h */,
+				90A3806A1C0C576600959AEF /* ReaderConstants.m */,
+				90A3806B1C0C576600959AEF /* ReaderContentPage.h */,
+				90A3806C1C0C576600959AEF /* ReaderContentPage.m */,
+				90A3806D1C0C576600959AEF /* ReaderContentTile.h */,
+				90A3806E1C0C576600959AEF /* ReaderContentTile.m */,
+				90A3806F1C0C576600959AEF /* ReaderContentView.h */,
+				90A380701C0C576600959AEF /* ReaderContentView.m */,
+				90A380711C0C576600959AEF /* ReaderDocument.h */,
+				90A380721C0C576600959AEF /* ReaderDocument.m */,
+				90A380731C0C576600959AEF /* ReaderDocumentOutline.h */,
+				90A380741C0C576600959AEF /* ReaderDocumentOutline.m */,
+				90A380751C0C576600959AEF /* ReaderMainPagebar.h */,
+				90A380761C0C576600959AEF /* ReaderMainPagebar.m */,
+				90A380771C0C576600959AEF /* ReaderMainToolbar.h */,
+				90A380781C0C576600959AEF /* ReaderMainToolbar.m */,
+				90A380791C0C576600959AEF /* ReaderThumbCache.h */,
+				90A3807A1C0C576600959AEF /* ReaderThumbCache.m */,
+				90A3807B1C0C576600959AEF /* ReaderThumbFetch.h */,
+				90A3807C1C0C576600959AEF /* ReaderThumbFetch.m */,
+				90A3807D1C0C576600959AEF /* ReaderThumbQueue.h */,
+				90A3807E1C0C576600959AEF /* ReaderThumbQueue.m */,
+				90A3807F1C0C576600959AEF /* ReaderThumbRender.h */,
+				90A380801C0C576600959AEF /* ReaderThumbRender.m */,
+				90A380811C0C576600959AEF /* ReaderThumbRequest.h */,
+				90A380821C0C576600959AEF /* ReaderThumbRequest.m */,
+				90A380831C0C576600959AEF /* ReaderThumbsView.h */,
+				90A380841C0C576600959AEF /* ReaderThumbsView.m */,
+				90A380851C0C576600959AEF /* ReaderThumbView.h */,
+				90A380861C0C576600959AEF /* ReaderThumbView.m */,
+				90A380871C0C576600959AEF /* ReaderViewController.h */,
+				90A380881C0C576600959AEF /* ReaderViewController.m */,
+				90A380891C0C576600959AEF /* ThumbsMainToolbar.h */,
+				90A3808A1C0C576600959AEF /* ThumbsMainToolbar.m */,
+				90A3808B1C0C576600959AEF /* ThumbsViewController.h */,
+				90A3808C1C0C576600959AEF /* ThumbsViewController.m */,
+				90A3808D1C0C576600959AEF /* UIXToolbarView.h */,
+				90A3808E1C0C576600959AEF /* UIXToolbarView.m */,
+			);
+			name = "PDF-reader";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,9 +432,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904AEC311C0C82B000C23945 /* paypaking - booking-v1.pdf in Resources */,
 				90A3803A1C0C2FC400959AEF /* LaunchScreen.storyboard in Resources */,
+				904AEC321C0C82B000C23945 /* Specifications EDIT.pdf in Resources */,
 				90A380371C0C2FC400959AEF /* Assets.xcassets in Resources */,
 				90A380351C0C2FC400959AEF /* Main.storyboard in Resources */,
+				904AEC361C0C892E00C23945 /* 5. Annotations.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +462,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A3809D1C0C576600959AEF /* ReaderThumbsView.m in Sources */,
+				90A380A01C0C576600959AEF /* ThumbsMainToolbar.m in Sources */,
+				90A380981C0C576600959AEF /* ReaderThumbCache.m in Sources */,
+				90A3809E1C0C576600959AEF /* ReaderThumbView.m in Sources */,
+				90A380921C0C576600959AEF /* ReaderContentTile.m in Sources */,
+				90A380911C0C576600959AEF /* ReaderContentPage.m in Sources */,
+				90A380901C0C576600959AEF /* ReaderConstants.m in Sources */,
+				90A380951C0C576600959AEF /* ReaderDocumentOutline.m in Sources */,
+				90A380961C0C576600959AEF /* ReaderMainPagebar.m in Sources */,
+				904AEC391C0C932E00C23945 /* FileIconCell.swift in Sources */,
+				90A380991C0C576600959AEF /* ReaderThumbFetch.m in Sources */,
+				90A3809B1C0C576600959AEF /* ReaderThumbRender.m in Sources */,
 				90A380631C0C318600959AEF /* AppDelegate.swift in Sources */,
+				90A380931C0C576600959AEF /* ReaderContentView.m in Sources */,
+				90A380A21C0C576600959AEF /* UIXToolbarView.m in Sources */,
+				90A3809A1C0C576600959AEF /* ReaderThumbQueue.m in Sources */,
+				90A3809F1C0C576600959AEF /* ReaderViewController.m in Sources */,
+				90A3809C1C0C576600959AEF /* ReaderThumbRequest.m in Sources */,
+				90A380941C0C576600959AEF /* ReaderDocument.m in Sources */,
 				90A380601C0C30BF00959AEF /* ReaderPDFViewController.swift in Sources */,
+				90A3808F1C0C576600959AEF /* CGPDFDocument.m in Sources */,
+				90A380971C0C576600959AEF /* ReaderMainToolbar.m in Sources */,
+				90A380A11C0C576600959AEF /* ThumbsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,10 +626,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PDFReaderTut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RomahaProduction.PDFReaderTut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PDFReaderTut/PDFReaderTut-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -434,10 +640,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PDFReaderTut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RomahaProduction.PDFReaderTut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PDFReaderTut/PDFReaderTut-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -508,6 +716,7 @@
 				90A380561C0C2FC400959AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90A380571C0C2FC400959AEF /* Build configuration list for PBXNativeTarget "PDFReaderTutTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +725,7 @@
 				90A380591C0C2FC400959AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90A3805A1C0C2FC400959AEF /* Build configuration list for PBXNativeTarget "PDFReaderTutUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +734,7 @@
 				90A3805C1C0C2FC400959AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
