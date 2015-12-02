@@ -44,6 +44,7 @@
 		90A380A01C0C576600959AEF /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A3808A1C0C576600959AEF /* ThumbsMainToolbar.m */; };
 		90A380A11C0C576600959AEF /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A3808C1C0C576600959AEF /* ThumbsViewController.m */; };
 		90A380A21C0C576600959AEF /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A3808E1C0C576600959AEF /* UIXToolbarView.m */; };
+		90CAEE451C0DD53F00AA7693 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CAEE441C0DD53F00AA7693 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		90A3808C1C0C576600959AEF /* ThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThumbsViewController.m; path = "Classes/Externals/PDF-reader/ThumbsViewController.m"; sourceTree = "<group>"; };
 		90A3808D1C0C576600959AEF /* UIXToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIXToolbarView.h; path = "Classes/Externals/PDF-reader/UIXToolbarView.h"; sourceTree = "<group>"; };
 		90A3808E1C0C576600959AEF /* UIXToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIXToolbarView.m; path = "Classes/Externals/PDF-reader/UIXToolbarView.m"; sourceTree = "<group>"; };
+		90CAEE441C0DD53F00AA7693 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Classes/ViewControllers/DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				90A3805F1C0C30BF00959AEF /* ReaderPDFViewController.swift */,
+				90CAEE441C0DD53F00AA7693 /* DetailViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 				90A380631C0C318600959AEF /* AppDelegate.swift in Sources */,
 				90A380931C0C576600959AEF /* ReaderContentView.m in Sources */,
 				90A380A21C0C576600959AEF /* UIXToolbarView.m in Sources */,
+				90CAEE451C0DD53F00AA7693 /* DetailViewController.swift in Sources */,
 				90A3809A1C0C576600959AEF /* ReaderThumbQueue.m in Sources */,
 				90A3809F1C0C576600959AEF /* ReaderViewController.m in Sources */,
 				90A3809C1C0C576600959AEF /* ReaderThumbRequest.m in Sources */,

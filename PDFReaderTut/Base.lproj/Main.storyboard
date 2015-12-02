@@ -9,7 +9,7 @@
         <!--PDF-Reader-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ReaderPDFViewController" id="BYZ-38-t0r" customClass="ReaderPDFViewController" customModule="PDFReaderTut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReaderPDFViewController" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ReaderPDFViewController" customModule="PDFReaderTut" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,18 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Txz-Pv-geV">
-                                <rect key="frame" x="0.0" y="980" width="768" height="44"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="WUO-uu-xKU"/>
-                                </constraints>
-                                <items>
-                                    <barButtonItem title="Item" id="IeO-GW-t4Z"/>
-                                </items>
-                            </toolbar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rLZ-9f-N8e">
-                                <rect key="frame" x="0.0" y="64" width="768" height="916"/>
+                                <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                                 <animations/>
                                 <color key="backgroundColor" name="highlightColor" catalog="System" colorSpace="catalog"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="15" minimumInteritemSpacing="15" id="1BJ-7M-Qyo">
@@ -72,13 +62,10 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rLZ-9f-N8e" secondAttribute="bottom" id="ETa-19-24s"/>
                             <constraint firstItem="rLZ-9f-N8e" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="FfO-MZ-1jc"/>
                             <constraint firstAttribute="trailing" secondItem="rLZ-9f-N8e" secondAttribute="trailing" id="Kf4-iv-kXU"/>
-                            <constraint firstAttribute="trailing" secondItem="Txz-Pv-geV" secondAttribute="trailing" id="MEL-UU-yL1"/>
-                            <constraint firstItem="Txz-Pv-geV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Mgi-jl-b5E"/>
                             <constraint firstItem="rLZ-9f-N8e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PAq-VD-1wC"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Txz-Pv-geV" secondAttribute="bottom" id="hdv-PC-8cB"/>
-                            <constraint firstItem="Txz-Pv-geV" firstAttribute="top" secondItem="rLZ-9f-N8e" secondAttribute="bottom" id="nfu-H5-oad"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="PDF-Reader" id="BSV-Sg-1V2"/>
@@ -91,23 +78,69 @@
             </objects>
             <point key="canvasLocation" x="1185" y="479"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="IOW-CP-WIk">
             <objects>
-                <viewController id="Q1Q-vp-Jus" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" id="Q1Q-vp-Jus" customClass="DetailViewController" customModule="PDFReaderTut" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Siz-Y3-kvC"/>
                         <viewControllerLayoutGuide type="bottom" id="0yt-od-Pic"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ftE-Vi-L3Y">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ggs-1I-Ywf">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="896"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="icJ-QM-6hK">
+                                <rect key="frame" x="0.0" y="896" width="768" height="64"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="nhD-zN-126"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem image="bookmark_button" id="rUy-I0-jsT">
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem image="bookmark" id="Cem-DT-sE2"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0yt-od-Pic" firstAttribute="top" secondItem="icJ-QM-6hK" secondAttribute="bottom" id="77y-lr-7jZ"/>
+                            <constraint firstAttribute="trailing" secondItem="icJ-QM-6hK" secondAttribute="trailing" id="8l7-JC-hgD"/>
+                            <constraint firstItem="icJ-QM-6hK" firstAttribute="top" secondItem="Ggs-1I-Ywf" secondAttribute="bottom" id="O5g-1B-tfS"/>
+                            <constraint firstItem="icJ-QM-6hK" firstAttribute="leading" secondItem="ftE-Vi-L3Y" secondAttribute="leading" id="W3w-Zs-8BA"/>
+                            <constraint firstItem="Ggs-1I-Ywf" firstAttribute="top" secondItem="Siz-Y3-kvC" secondAttribute="bottom" id="aw8-jY-LGj"/>
+                            <constraint firstAttribute="trailing" secondItem="Ggs-1I-Ywf" secondAttribute="trailing" id="cy7-UA-JMO"/>
+                            <constraint firstItem="Ggs-1I-Ywf" firstAttribute="leading" secondItem="ftE-Vi-L3Y" secondAttribute="leading" id="t0h-n1-h2S"/>
+                        </constraints>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="backBarButtonItem" destination="vV1-eW-eUL" id="B8K-q1-wxn"/>
+                        <outlet property="infoBarButtonItem" destination="MzB-T7-yWD" id="QT0-zH-tXM"/>
+                        <outlet property="webView" destination="Ggs-1I-Ywf" id="Wyv-tp-yTz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H0G-b3-j8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <barButtonItem title="Back" id="vV1-eW-eUL">
+                    <connections>
+                        <action selector="back:" destination="Q1Q-vp-Jus" id="Drt-je-5K3"/>
+                    </connections>
+                </barButtonItem>
+                <barButtonItem systemItem="refresh" id="WgU-qR-hvw"/>
+                <barButtonItem title="Info" id="MzB-T7-yWD">
+                    <connections>
+                        <action selector="info:" destination="Q1Q-vp-Jus" id="5sZ-Oe-ueB"/>
+                    </connections>
+                </barButtonItem>
             </objects>
             <point key="canvasLocation" x="2005" y="479"/>
         </scene>
@@ -131,4 +164,8 @@
             <point key="canvasLocation" x="286" y="479"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bookmark" width="70" height="70"/>
+        <image name="bookmark_button" width="35" height="35"/>
+    </resources>
 </document>

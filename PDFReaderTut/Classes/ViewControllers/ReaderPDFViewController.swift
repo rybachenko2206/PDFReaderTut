@@ -54,6 +54,13 @@ class ReaderPDFViewController: UIViewController, UICollectionViewDataSource, UIC
         readerVC.modalTransitionStyle = .CrossDissolve
         readerVC.modalPresentationStyle = .FullScreen
         self.presentViewController(readerVC, animated:true, completion: nil)
+        
+//        let docURL = document.fileURL
+//        if docURL != nil {
+//            let detailVC = self.storyboard?.instantiateViewControllerWithIdentifier(DetailViewController.storyboardIdentifier()) as! DetailViewController
+//            detailVC.pdfDocUrl = docURL
+//            self.navigationController?.pushViewController(detailVC, animated: true)
+//        }
     }
     
     
